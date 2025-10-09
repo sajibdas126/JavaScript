@@ -4,8 +4,15 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <script src="problem-20.js"></script>
+    <div id="container" class="w-[400px] h-[400px] bg-amber-400 relative flex">
+      <div id="content" class="w-[50px] h-[50px] bg-red-500 absolute"></div>
+    </div>
+    <button class="p-3 bg-amber-800 rounded-2xl" onclick="myMove()">move</button>
+
+    <script src="anemation.js"></script>
   </body>
 </html>

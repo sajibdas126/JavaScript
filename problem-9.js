@@ -6,7 +6,7 @@
 // Input: A → Output: Uppercase
 // Input: g → Output: Lowercase
 
-let ch = 'angladesh'; 
+let ch = 'D'; 
 let result = (ch >= 'A' && ch <= 'Z') 
   ? "Uppercase" 
   : (ch >= 'a' && ch <= 'z') 
